@@ -41,8 +41,12 @@
 
 
 					if (pt_now < pt_min) document.getElementById("result").innerHTML = "current PT should be bigger than minimal PT";
-					
-					if ((pt_now<=0),(pt_min<=0),(days<=0)) document.getElementById("result").innerHTML = "write data correctly";
+
+					if (pt_min<=0) document.getElementById("result").innerHTML = "write data correctly";
+					if (pt_now<=0) document.getElementById("result").innerHTML = "write data correctly";
+					if (days<=0) document.getElementById("result").innerHTML = "write data correctly";
+
+
 				}
 
 
