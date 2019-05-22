@@ -1,0 +1,31 @@
+body{
+	background-color:#303133;
+	color:white; 
+	font-family:'Montserrat';
+	text-align:center;
+}
+body h1{
+	text-align:center;
+}
+
+
+}
+#result{
+	color:white;
+}
+body button{
+	float:right;
+	margin-right:100px;
+	margin-top:300px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:gray;
+  color: white;
+  text-align: center;
+}
